@@ -1,0 +1,176 @@
+
+h1, p {
+    text-align: center;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.header-buttons > *{
+    border: none;
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.intro-props {
+    position: relative;
+}
+
+.intro-text {
+    position: absolute;
+    left: 12.5%;
+    top: 2rem;
+    padding: 0 1rem;
+}
+
+#about-me-image {
+    width: 100%;
+    padding-left: 55%;
+    margin-top: 400px;
+    z-index: 0;
+}
+
+#about-intro-text {
+    display: flex;
+    font-size: 125px;
+    margin-top: 120px;
+}
+
+
+.heading-text {
+    display: flex;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 125px;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+#hello {
+    font-family: 'Livvic', sans-serif;
+    font-size: 150px;
+}
+
+#name {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 125px;
+}
+
+#about-first-des, #about-second-des {
+    font-family: 'Livvic', sans-serif;
+    font-size: 45px;
+    margin: 0px;
+}
+
+
+.experience-props {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50rem;
+    width: 80rem;
+    margin-left: 6rem;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    width: 80rem;
+    border-radius: 20px;
+}
+
+.exp-text > * {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.exp-text > h2 {
+    font-size: 25px;
+}
+
+.exp.purple {
+    background-color: #9C73C5;
+}
+
+.exp.blue {
+    background-color: #69AEFF;
+}
+
+.toggle-down {
+    height: 70px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.projects-props, .contact-me-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50rem;
+    width: 90rem;
+    margin-left: 1rem;
+    margin-bottom: 20px;
+}
+
+.proj {
+    height: 60%;
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 45px;
+    background-color: #AAEBFF;
+}
+
+.proj-title {
+    margin-top: 40px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.proj-img {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    height: 60%;
+    width: 90%;
+}
+
+.dne {
+    margin-top: 100px;
+    font-size: 100px;
+}
+
+.contact-info {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    height: 500px;
+    width: 700px;
+}
+
+.contact-info > h3 {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+}
+
+.contact-info > h4 {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.breaker {
+    color : black;
+    border : 0.5px solid black;
+    margin-left: 25px;
+    margin-right: 50px;
+}
